@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8015
   servlet:
     context-path: /v1/gray/
 spring:
@@ -7,6 +7,6 @@ spring:
     active: local
     location: banner.txt
   application:
-    name: schoolLife-service
+    name: schoolLife-securityService
 mybatis:
   mapper-locations: classpath:mapping/*.xml
